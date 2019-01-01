@@ -18,7 +18,7 @@ public class Main1 {
 		System.out.println(s1.equals(s2)); 
 		System.out.println(s1.equals(s3)); 
 		System.out.println(s1.equals(s5)); 
-		// System.out.println(nulls1.equals(nulls2)); // NullPointerException 
+		System.out.println(nulls1.equals(nulls2)); // NullPointerException 
 
 		System.out.println(" Comparing strings with ==:"); 
 		System.out.println(s1 == s2); 
@@ -29,6 +29,6 @@ public class Main1 {
 		System.out.println(" Comparing strings with compareto:"); 
 		System.out.println(s1.compareTo(s3)); 
 		System.out.println(s1.compareTo(s5)); 
-		// System.out.println(nulls1.compareTo(nulls2)); // NullPointerException 
+		System.out.println(nulls1.compareTo(nulls2)); // NullPointerException 
 	} 
 } 
